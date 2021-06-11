@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+            getSession()
+        }
+    
+    func getSession(){
+        let url = "http://codingtest.fretello.com:3000/data/sessions.json"
+        AF.request(url).responseJSON{ response in
+            print(response)
+        }
     }
-
-
 }
 

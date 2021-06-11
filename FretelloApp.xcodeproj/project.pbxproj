@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		B46AC953267351FE001B0B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46AC951267351FE001B0B1D /* LaunchScreen.storyboard */; };
 		B46AC95E267351FE001B0B1D /* FretelloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC95D267351FE001B0B1D /* FretelloAppTests.swift */; };
 		B46AC969267351FE001B0B1D /* FretelloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC968267351FE001B0B1D /* FretelloAppUITests.swift */; };
+		B46AC97B267362C9001B0B1D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B46AC97A267362C9001B0B1D /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46AC97B267362C9001B0B1D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +101,9 @@
 		B46AC945267351FB001B0B1D /* FretelloApp */ = {
 			isa = PBXGroup;
 			children = (
-				B46AC946267351FB001B0B1D /* AppDelegate.swift */,
-				B46AC948267351FB001B0B1D /* SceneDelegate.swift */,
+				B46AC9832673710B001B0B1D /* Resources */,
+				B46AC97F2673702D001B0B1D /* Delegates */,
 				B46AC94A267351FB001B0B1D /* ViewController.swift */,
-				B46AC94C267351FB001B0B1D /* Main.storyboard */,
-				B46AC94F267351FE001B0B1D /* Assets.xcassets */,
-				B46AC951267351FE001B0B1D /* LaunchScreen.storyboard */,
 				B46AC954267351FE001B0B1D /* Info.plist */,
 			);
 			path = FretelloApp;
@@ -128,6 +127,25 @@
 			path = FretelloAppUITests;
 			sourceTree = "<group>";
 		};
+		B46AC97F2673702D001B0B1D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B46AC946267351FB001B0B1D /* AppDelegate.swift */,
+				B46AC948267351FB001B0B1D /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		B46AC9832673710B001B0B1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B46AC94C267351FB001B0B1D /* Main.storyboard */,
+				B46AC94F267351FE001B0B1D /* Assets.xcassets */,
+				B46AC951267351FE001B0B1D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +162,9 @@
 			dependencies = (
 			);
 			name = FretelloApp;
+			packageProductDependencies = (
+				B46AC97A267362C9001B0B1D /* Alamofire */,
+			);
 			productName = FretelloApp;
 			productReference = B46AC943267351FB001B0B1D /* FretelloApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +236,9 @@
 				Base,
 			);
 			mainGroup = B46AC93A267351FB001B0B1D;
+			packageReferences = (
+				B46AC979267362C9001B0B1D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = B46AC944267351FB001B0B1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -593,6 +617,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B46AC979267362C9001B0B1D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B46AC97A267362C9001B0B1D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B46AC979267362C9001B0B1D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B46AC93B267351FB001B0B1D /* Project object */;
 }

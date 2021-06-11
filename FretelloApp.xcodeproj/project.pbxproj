@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B46AC947267351FB001B0B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC946267351FB001B0B1D /* AppDelegate.swift */; };
+		B46AC949267351FB001B0B1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC948267351FB001B0B1D /* SceneDelegate.swift */; };
+		B46AC94B267351FB001B0B1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC94A267351FB001B0B1D /* ViewController.swift */; };
+		B46AC94E267351FB001B0B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46AC94C267351FB001B0B1D /* Main.storyboard */; };
+		B46AC950267351FE001B0B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46AC94F267351FE001B0B1D /* Assets.xcassets */; };
+		B46AC953267351FE001B0B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46AC951267351FE001B0B1D /* LaunchScreen.storyboard */; };
+		B46AC95E267351FE001B0B1D /* FretelloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC95D267351FE001B0B1D /* FretelloAppTests.swift */; };
+		B46AC969267351FE001B0B1D /* FretelloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC968267351FE001B0B1D /* FretelloAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B46AC95A267351FE001B0B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46AC93B267351FB001B0B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46AC942267351FB001B0B1D;
+			remoteInfo = FretelloApp;
+		};
+		B46AC965267351FE001B0B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46AC93B267351FB001B0B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46AC942267351FB001B0B1D;
+			remoteInfo = FretelloApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B46AC943267351FB001B0B1D /* FretelloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FretelloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46AC946267351FB001B0B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B46AC948267351FB001B0B1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B46AC94A267351FB001B0B1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B46AC94D267351FB001B0B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B46AC94F267351FE001B0B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B46AC952267351FE001B0B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B46AC954267351FE001B0B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46AC959267351FE001B0B1D /* FretelloAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FretelloAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46AC95D267351FE001B0B1D /* FretelloAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretelloAppTests.swift; sourceTree = "<group>"; };
+		B46AC95F267351FE001B0B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46AC964267351FE001B0B1D /* FretelloAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FretelloAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46AC968267351FE001B0B1D /* FretelloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretelloAppUITests.swift; sourceTree = "<group>"; };
+		B46AC96A267351FE001B0B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46AC940267351FB001B0B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46AC956267351FE001B0B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46AC961267351FE001B0B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B46AC93A267351FB001B0B1D = {
+			isa = PBXGroup;
+			children = (
+				B46AC945267351FB001B0B1D /* FretelloApp */,
+				B46AC95C267351FE001B0B1D /* FretelloAppTests */,
+				B46AC967267351FE001B0B1D /* FretelloAppUITests */,
+				B46AC944267351FB001B0B1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B46AC944267351FB001B0B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B46AC943267351FB001B0B1D /* FretelloApp.app */,
+				B46AC959267351FE001B0B1D /* FretelloAppTests.xctest */,
+				B46AC964267351FE001B0B1D /* FretelloAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B46AC945267351FB001B0B1D /* FretelloApp */ = {
+			isa = PBXGroup;
+			children = (
+				B46AC946267351FB001B0B1D /* AppDelegate.swift */,
+				B46AC948267351FB001B0B1D /* SceneDelegate.swift */,
+				B46AC94A267351FB001B0B1D /* ViewController.swift */,
+				B46AC94C267351FB001B0B1D /* Main.storyboard */,
+				B46AC94F267351FE001B0B1D /* Assets.xcassets */,
+				B46AC951267351FE001B0B1D /* LaunchScreen.storyboard */,
+				B46AC954267351FE001B0B1D /* Info.plist */,
+			);
+			path = FretelloApp;
+			sourceTree = "<group>";
+		};
+		B46AC95C267351FE001B0B1D /* FretelloAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B46AC95D267351FE001B0B1D /* FretelloAppTests.swift */,
+				B46AC95F267351FE001B0B1D /* Info.plist */,
+			);
+			path = FretelloAppTests;
+			sourceTree = "<group>";
+		};
+		B46AC967267351FE001B0B1D /* FretelloAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B46AC968267351FE001B0B1D /* FretelloAppUITests.swift */,
+				B46AC96A267351FE001B0B1D /* Info.plist */,
+			);
+			path = FretelloAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B46AC942267351FB001B0B1D /* FretelloApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46AC96D267351FE001B0B1D /* Build configuration list for PBXNativeTarget "FretelloApp" */;
+			buildPhases = (
+				B46AC93F267351FB001B0B1D /* Sources */,
+				B46AC940267351FB001B0B1D /* Frameworks */,
+				B46AC941267351FB001B0B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FretelloApp;
+			productName = FretelloApp;
+			productReference = B46AC943267351FB001B0B1D /* FretelloApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B46AC958267351FE001B0B1D /* FretelloAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46AC970267351FE001B0B1D /* Build configuration list for PBXNativeTarget "FretelloAppTests" */;
+			buildPhases = (
+				B46AC955267351FE001B0B1D /* Sources */,
+				B46AC956267351FE001B0B1D /* Frameworks */,
+				B46AC957267351FE001B0B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46AC95B267351FE001B0B1D /* PBXTargetDependency */,
+			);
+			name = FretelloAppTests;
+			productName = FretelloAppTests;
+			productReference = B46AC959267351FE001B0B1D /* FretelloAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B46AC963267351FE001B0B1D /* FretelloAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46AC973267351FE001B0B1D /* Build configuration list for PBXNativeTarget "FretelloAppUITests" */;
+			buildPhases = (
+				B46AC960267351FE001B0B1D /* Sources */,
+				B46AC961267351FE001B0B1D /* Frameworks */,
+				B46AC962267351FE001B0B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46AC966267351FE001B0B1D /* PBXTargetDependency */,
+			);
+			name = FretelloAppUITests;
+			productName = FretelloAppUITests;
+			productReference = B46AC964267351FE001B0B1D /* FretelloAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46AC93B267351FB001B0B1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B46AC942267351FB001B0B1D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B46AC958267351FE001B0B1D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B46AC942267351FB001B0B1D;
+					};
+					B46AC963267351FE001B0B1D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B46AC942267351FB001B0B1D;
+					};
+				};
+			};
+			buildConfigurationList = B46AC93E267351FB001B0B1D /* Build configuration list for PBXProject "FretelloApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B46AC93A267351FB001B0B1D;
+			productRefGroup = B46AC944267351FB001B0B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B46AC942267351FB001B0B1D /* FretelloApp */,
+				B46AC958267351FE001B0B1D /* FretelloAppTests */,
+				B46AC963267351FE001B0B1D /* FretelloAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B46AC941267351FB001B0B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46AC953267351FE001B0B1D /* LaunchScreen.storyboard in Resources */,
+				B46AC950267351FE001B0B1D /* Assets.xcassets in Resources */,
+				B46AC94E267351FB001B0B1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46AC957267351FE001B0B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46AC962267351FE001B0B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B46AC93F267351FB001B0B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46AC94B267351FB001B0B1D /* ViewController.swift in Sources */,
+				B46AC947267351FB001B0B1D /* AppDelegate.swift in Sources */,
+				B46AC949267351FB001B0B1D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46AC955267351FE001B0B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46AC95E267351FE001B0B1D /* FretelloAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46AC960267351FE001B0B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46AC969267351FE001B0B1D /* FretelloAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B46AC95B267351FE001B0B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46AC942267351FB001B0B1D /* FretelloApp */;
+			targetProxy = B46AC95A267351FE001B0B1D /* PBXContainerItemProxy */;
+		};
+		B46AC966267351FE001B0B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46AC942267351FB001B0B1D /* FretelloApp */;
+			targetProxy = B46AC965267351FE001B0B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B46AC94C267351FB001B0B1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46AC94D267351FB001B0B1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B46AC951267351FE001B0B1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46AC952267351FE001B0B1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B46AC96B267351FE001B0B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B46AC96C267351FE001B0B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B46AC96E267351FE001B0B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MQ6RYJ3C2;
+				INFOPLIST_FILE = FretelloApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucwealth.FretelloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B46AC96F267351FE001B0B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MQ6RYJ3C2;
+				INFOPLIST_FILE = FretelloApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucwealth.FretelloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B46AC971267351FE001B0B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MQ6RYJ3C2;
+				INFOPLIST_FILE = FretelloAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucwealth.FretelloAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FretelloApp.app/FretelloApp";
+			};
+			name = Debug;
+		};
+		B46AC972267351FE001B0B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MQ6RYJ3C2;
+				INFOPLIST_FILE = FretelloAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucwealth.FretelloAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FretelloApp.app/FretelloApp";
+			};
+			name = Release;
+		};
+		B46AC974267351FE001B0B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MQ6RYJ3C2;
+				INFOPLIST_FILE = FretelloAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucwealth.FretelloAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FretelloApp;
+			};
+			name = Debug;
+		};
+		B46AC975267351FE001B0B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MQ6RYJ3C2;
+				INFOPLIST_FILE = FretelloAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucwealth.FretelloAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FretelloApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B46AC93E267351FB001B0B1D /* Build configuration list for PBXProject "FretelloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46AC96B267351FE001B0B1D /* Debug */,
+				B46AC96C267351FE001B0B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46AC96D267351FE001B0B1D /* Build configuration list for PBXNativeTarget "FretelloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46AC96E267351FE001B0B1D /* Debug */,
+				B46AC96F267351FE001B0B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46AC970267351FE001B0B1D /* Build configuration list for PBXNativeTarget "FretelloAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46AC971267351FE001B0B1D /* Debug */,
+				B46AC972267351FE001B0B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46AC973267351FE001B0B1D /* Build configuration list for PBXNativeTarget "FretelloAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46AC974267351FE001B0B1D /* Debug */,
+				B46AC975267351FE001B0B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B46AC93B267351FB001B0B1D /* Project object */;
+}

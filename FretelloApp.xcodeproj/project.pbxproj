@@ -16,6 +16,12 @@
 		B46AC95E267351FE001B0B1D /* FretelloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC95D267351FE001B0B1D /* FretelloAppTests.swift */; };
 		B46AC969267351FE001B0B1D /* FretelloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC968267351FE001B0B1D /* FretelloAppUITests.swift */; };
 		B46AC97B267362C9001B0B1D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B46AC97A267362C9001B0B1D /* Alamofire */; };
+		B46AC989267375ED001B0B1D /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC988267375ED001B0B1D /* SessionModel.swift */; };
+		B46AC98F2673AF35001B0B1D /* SessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC98E2673AF35001B0B1D /* SessionTableViewCell.swift */; };
+		B46AC9A62674E156001B0B1D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B46AC9A52674E156001B0B1D /* SnapKit */; };
+		B46ACA0B26763E42001B0B1D /* PracticePerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46ACA0A26763E42001B0B1D /* PracticePerformance.swift */; };
+		B46ACA1026766421001B0B1D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B46ACA0F26766421001B0B1D /* README.md */; };
+		B46ACA292677F3EE001B0B1D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B46ACA282677F3EE001B0B1D /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,10 @@
 		B46AC964267351FE001B0B1D /* FretelloAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FretelloAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46AC968267351FE001B0B1D /* FretelloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretelloAppUITests.swift; sourceTree = "<group>"; };
 		B46AC96A267351FE001B0B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46AC988267375ED001B0B1D /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
+		B46AC98E2673AF35001B0B1D /* SessionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTableViewCell.swift; sourceTree = "<group>"; };
+		B46ACA0A26763E42001B0B1D /* PracticePerformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePerformance.swift; sourceTree = "<group>"; };
+		B46ACA0F26766421001B0B1D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46AC97B267362C9001B0B1D /* Alamofire in Frameworks */,
+				B46ACA292677F3EE001B0B1D /* SDWebImage in Frameworks */,
+				B46AC9A62674E156001B0B1D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,7 @@
 		B46AC93A267351FB001B0B1D = {
 			isa = PBXGroup;
 			children = (
+				B46ACA0F26766421001B0B1D /* README.md */,
 				B46AC945267351FB001B0B1D /* FretelloApp */,
 				B46AC95C267351FE001B0B1D /* FretelloAppTests */,
 				B46AC967267351FE001B0B1D /* FretelloAppUITests */,
@@ -101,9 +114,10 @@
 		B46AC945267351FB001B0B1D /* FretelloApp */ = {
 			isa = PBXGroup;
 			children = (
+				B46AC99B2673B139001B0B1D /* FretelloApp+Model */,
+				B46AC98D2673AEFB001B0B1D /* FretelloApp+View */,
+				B46ACA0626763726001B0B1D /* FretelloApp+Controller */,
 				B46AC9832673710B001B0B1D /* Resources */,
-				B46AC97F2673702D001B0B1D /* Delegates */,
-				B46AC94A267351FB001B0B1D /* ViewController.swift */,
 				B46AC954267351FE001B0B1D /* Info.plist */,
 			);
 			path = FretelloApp;
@@ -127,23 +141,41 @@
 			path = FretelloAppUITests;
 			sourceTree = "<group>";
 		};
-		B46AC97F2673702D001B0B1D /* Delegates */ = {
+		B46AC9832673710B001B0B1D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				B46AC946267351FB001B0B1D /* AppDelegate.swift */,
 				B46AC948267351FB001B0B1D /* SceneDelegate.swift */,
-			);
-			path = Delegates;
-			sourceTree = "<group>";
-		};
-		B46AC9832673710B001B0B1D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
 				B46AC94C267351FB001B0B1D /* Main.storyboard */,
 				B46AC94F267351FE001B0B1D /* Assets.xcassets */,
 				B46AC951267351FE001B0B1D /* LaunchScreen.storyboard */,
+				B46ACA0A26763E42001B0B1D /* PracticePerformance.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B46AC98D2673AEFB001B0B1D /* FretelloApp+View */ = {
+			isa = PBXGroup;
+			children = (
+				B46AC98E2673AF35001B0B1D /* SessionTableViewCell.swift */,
+			);
+			path = "FretelloApp+View";
+			sourceTree = "<group>";
+		};
+		B46AC99B2673B139001B0B1D /* FretelloApp+Model */ = {
+			isa = PBXGroup;
+			children = (
+				B46AC988267375ED001B0B1D /* SessionModel.swift */,
+			);
+			path = "FretelloApp+Model";
+			sourceTree = "<group>";
+		};
+		B46ACA0626763726001B0B1D /* FretelloApp+Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B46AC94A267351FB001B0B1D /* ViewController.swift */,
+			);
+			path = "FretelloApp+Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +196,8 @@
 			name = FretelloApp;
 			packageProductDependencies = (
 				B46AC97A267362C9001B0B1D /* Alamofire */,
+				B46AC9A52674E156001B0B1D /* SnapKit */,
+				B46ACA282677F3EE001B0B1D /* SDWebImage */,
 			);
 			productName = FretelloApp;
 			productReference = B46AC943267351FB001B0B1D /* FretelloApp.app */;
@@ -238,6 +272,8 @@
 			mainGroup = B46AC93A267351FB001B0B1D;
 			packageReferences = (
 				B46AC979267362C9001B0B1D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B46AC9A42674E156001B0B1D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B46ACA272677F3EE001B0B1D /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = B46AC944267351FB001B0B1D /* Products */;
 			projectDirPath = "";
@@ -257,6 +293,7 @@
 			files = (
 				B46AC953267351FE001B0B1D /* LaunchScreen.storyboard in Resources */,
 				B46AC950267351FE001B0B1D /* Assets.xcassets in Resources */,
+				B46ACA1026766421001B0B1D /* README.md in Resources */,
 				B46AC94E267351FB001B0B1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +321,10 @@
 			files = (
 				B46AC94B267351FB001B0B1D /* ViewController.swift in Sources */,
 				B46AC947267351FB001B0B1D /* AppDelegate.swift in Sources */,
+				B46AC98F2673AF35001B0B1D /* SessionTableViewCell.swift in Sources */,
+				B46AC989267375ED001B0B1D /* SessionModel.swift in Sources */,
 				B46AC949267351FB001B0B1D /* SceneDelegate.swift in Sources */,
+				B46ACA0B26763E42001B0B1D /* PracticePerformance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +667,22 @@
 				minimumVersion = 5.4.3;
 			};
 		};
+		B46AC9A42674E156001B0B1D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		B46ACA272677F3EE001B0B1D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -634,6 +690,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B46AC979267362C9001B0B1D /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		B46AC9A52674E156001B0B1D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B46AC9A42674E156001B0B1D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B46ACA282677F3EE001B0B1D /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B46ACA272677F3EE001B0B1D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
